@@ -119,8 +119,8 @@
                             <span class="flaticon-shipped"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Free Shipping</h3>
-                            <span>On order over $100</span>
+                            <h3 class="heading">Envio Gratis</h3>
+                            <span>Al ordernar 100 unidades</span>
                         </div>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                             <span class="flaticon-diet"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Always Fresh</h3>
-                            <span>Product well package</span>
+                            <h3 class="heading">Producto Casero</h3>
+                            <span>Producto elaborado al dia</span>
                         </div>
                     </div>
                 </div>
@@ -141,8 +141,8 @@
                             <span class="flaticon-award"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Superior Quality</h3>
-                            <span>Quality Products</span>
+                            <h3 class="heading">Calidad Garantizada</h3>
+                            <span>Todos nuestros productos tienen control de calidad</span>
                         </div>
                     </div>
                 </div>
@@ -152,8 +152,8 @@
                             <span class="flaticon-customer-service"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Support</h3>
-                            <span>24/7 Support</span>
+                            <h3 class="heading">Contacto</h3>
+                            <span>Atencion de 09:00 am - 18:00 pm (Lun-Vier)</span>
                         </div>
                     </div>
                 </div>
@@ -176,13 +176,13 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <span class="status">30%</span>
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Bell Pepper</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span class="mr-2 price-dc">$120.00</span><span
@@ -195,12 +195,6 @@
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -208,12 +202,12 @@
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Strawberry</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span>$120.00</span></p>
@@ -224,72 +218,6 @@
                                     <a href="#"
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg"
-                                alt="Colorlib Template">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Green Beans</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
-                                        <span><i class="ion-ios-menu"></i></span>
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg"
-                                alt="Colorlib Template">
-                            <div class="overlay"></div>
-                        </a>
-                        <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Purple Cabbage</a></h3>
-                            <div class="d-flex">
-                                <div class="pricing">
-                                    <p class="price"><span>$120.00</span></p>
-                                </div>
-                            </div>
-                            <div class="bottom-area d-flex px-3">
-                                <div class="m-auto d-flex">
-                                    <a href="#"
-                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
-                                        <span><i class="ion-ios-menu"></i></span>
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -297,16 +225,65 @@
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
+                                alt="Colorlib Template">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3 text-center">
+                            <h3><a href="#">Salsa</a></h3>
+                            <div class="d-flex">
+                                <div class="pricing">
+                                    <p class="price"><span>$120.00</span></p>
+                                </div>
+                            </div>
+                            <div class="bottom-area d-flex px-3">
+                                <div class="m-auto d-flex">
+                                    <a href="#"
+                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                        <span><i class="ion-ios-menu"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-5.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
+                                alt="Colorlib Template">
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3 text-center">
+                            <h3><a href="#">Salsa</a></h3>
+                            <div class="d-flex">
+                                <div class="pricing">
+                                    <p class="price"><span>$120.00</span></p>
+                                </div>
+                            </div>
+                            <div class="bottom-area d-flex px-3">
+                                <div class="m-auto d-flex">
+                                    <a href="#"
+                                        class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                        <span><i class="ion-ios-menu"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="product">
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <span class="status">30%</span>
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Tomatoe</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span class="mr-2 price-dc">$120.00</span><span
@@ -319,12 +296,6 @@
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -332,12 +303,12 @@
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Brocolli</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span>$120.00</span></p>
@@ -349,25 +320,20 @@
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-7.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Carrots</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span>$120.00</span></p>
@@ -379,25 +345,20 @@
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
                                     </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-8.jpg"
+                        <a href="#" class="img-prod"><img class="img-fluid" src="{{asset('frontend/images/salsavector.png')}}"
                                 alt="Colorlib Template">
                             <div class="overlay"></div>
                         </a>
                         <div class="text py-3 pb-4 px-3 text-center">
-                            <h3><a href="#">Fruit Juice</a></h3>
+                            <h3><a href="#">Salsa</a></h3>
                             <div class="d-flex">
                                 <div class="pricing">
                                     <p class="price"><span>$120.00</span></p>
@@ -408,12 +369,6 @@
                                     <a href="#"
                                         class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                         <span><i class="ion-ios-menu"></i></span>
-                                    </a>
-                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-                                        <span><i class="ion-ios-cart"></i></span>
-                                    </a>
-                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
-                                        <span><i class="ion-ios-heart"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -424,21 +379,15 @@
         </div>
     </section>
 
-    <section class="ftco-section img" style="background-image: url(images/bg_3.jpg);">
+    <section class="ftco-section img" style="background-image: url(frontend/images/bg_salsaday.jpg);">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
-                    <span class="subheading">Best Price For You</span>
-                    <h2 class="mb-4">Deal of the day</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                    <h3><a href="#">Spinach</a></h3>
-                    <span class="price">$10 <a href="#">now $5 only</a></span>
-                    <div id="timer" class="d-flex mt-5">
-                        <div class="time" id="days"></div>
-                        <div class="time pl-3" id="hours"></div>
-                        <div class="time pl-3" id="minutes"></div>
-                        <div class="time pl-3" id="seconds"></div>
-                    </div>
+                    <span class="subheading">Especialidad del mes</span>
+                    <h2 class="mb-4">Nombre de la Salsa</h2>
+                    <p>Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magnam earum explicabo!.</p>
+                    <h3><a href="#">Ingredientes: Tomates</a></h3>
+                    <span class="price">Precio <a href="#">$50 MXN</a></span>
                 </div>
             </div>
         </div>
@@ -473,24 +422,7 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
-        <div class="container py-4">
-            <div class="row d-flex justify-content-center py-5">
-                <div class="col-md-6">
-                    <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
-                    <span>Get e-mail updates about our latest shops and special offers</span>
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <form action="#" class="subscribe-form">
-                        <div class="form-group d-flex">
-                            <input type="text" class="form-control" placeholder="Enter email address">
-                            <input type="submit" value="Subscribe" class="submit px-3">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <footer class="ftco-footer ftco-section">
         <div class="container">
             <div class="row">
@@ -503,8 +435,7 @@
             <div class="row mb-5">
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Vegefoods</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <h2 class="ftco-heading-2">Redes sociales</h2>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                             <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                             <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -516,41 +447,24 @@
                     <div class="ftco-footer-widget mb-4 ml-md-5">
                         <h2 class="ftco-heading-2">Menu</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">Shop</a></li>
-                            <li><a href="#" class="py-2 d-block">About</a></li>
-                            <li><a href="#" class="py-2 d-block">Journal</a></li>
-                            <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                            <li><a href="#" class="py-2 d-block">Productos</a></li>
+                            <li><a href="#" class="py-2 d-block">Nosotros</a></li>
+                            <li><a href="#" class="py-2 d-block">Contacto</a></li>
+                            <li><a href="#" class="py-2 d-block">Inicio</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Help</h2>
-                        <div class="d-flex">
-                            <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
-                                <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
-                                <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
-                                <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-                                <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
-                            </ul>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-2 d-block">FAQs</a></li>
-                                <li><a href="#" class="py-2 d-block">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <h2 class="ftco-heading-2">Cualquier duda.</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
-                                        View, San Francisco, California, USA</span></li>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-                                            210</span></a></li>
+                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+52 xxx xxxx
+                                            xxx</span></a></li>
                                 <li><a href="#"><span class="icon icon-envelope"></span><span
-                                            class="text">info@yourdomain.com</span></a></li>
+                                            class="text">youremail@email.com</span></a></li>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Tlacotalpan, Veracruz, Mexico</span></li>
                             </ul>
                         </div>
                     </div>
@@ -563,8 +477,7 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i class="icon-heart color-danger"
-                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </script> All rights reserved | dessign by <a href="http://www.code-t.com.mx" target="_blank">Code-T</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
