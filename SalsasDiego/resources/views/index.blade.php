@@ -167,7 +167,7 @@
             <div class="row justify-content-center mb-3 pb-3">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">Catalogo de Productos</span>
-                    <h2 class="mb-4">Nuestros Productoss</h2>
+                    <h2 class="mb-4">Nuestros Productos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, laboriosam.</p>
                 </div>
             </div>
