@@ -19,4 +19,8 @@ Route::get('/nosotros', function () {
     return view('layouts.nosotros');
 })->name('nosotros');
 
+Route::get('/contacto', function () {
+    return view('layouts.contacto');
+})->name('contacto');
+
 

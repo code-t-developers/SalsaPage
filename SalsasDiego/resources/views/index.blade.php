@@ -69,7 +69,7 @@
                     <li class="nav-item active"><a href="{{route('home')}}" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="{{route('nosotros')}}" class="nav-link">Nosotros</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Recetas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="{{route('contacto')}}" class="nav-link">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -105,7 +105,7 @@
                         <ul class="list-unstyled">
                             <li><a href="#" class="py-2 d-block">Productos</a></li>
                             <li><a href="{{route('nosotros')}}" class="py-2 d-block">Nosotros</a></li>
-                            <li><a href="#" class="py-2 d-block">Contacto</a></li>
+                            <li><a href="{{route('contacto')}}" class="py-2 d-block">Contacto</a></li>
                             <li><a href="{{route('home')}}" class="py-2 d-block">Inicio</a></li>
                         </ul>
                     </div>
