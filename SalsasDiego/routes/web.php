@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('index');
-});
+    return view('layouts.home');
+})->name('home');
+
+Route::get('/nosotros', function () {
+    return view('layouts.nosotros');
+})->name('nosotros');
 
 
