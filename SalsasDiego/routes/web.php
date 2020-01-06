@@ -23,4 +23,8 @@ Route::get('/contacto', function () {
     return view('layouts.contacto');
 })->name('contacto');
 
+Route::get('/recetas', function () {
+    return view('layouts.recetas');
+})->name('recetas');
+
 

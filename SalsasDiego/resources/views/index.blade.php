@@ -68,7 +68,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="{{route('home')}}" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="{{route('nosotros')}}" class="nav-link">Nosotros</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Recetas</a></li>
+                    <li class="nav-item"><a href="{{route('recetas')}}" class="nav-link">Recetas</a></li>
                     <li class="nav-item"><a href="{{route('contacto')}}" class="nav-link">Contacto</a></li>
                 </ul>
             </div>
