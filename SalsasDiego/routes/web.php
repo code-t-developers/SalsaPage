@@ -27,4 +27,8 @@ Route::get('/recetas', function () {
     return view('layouts.recetas');
 })->name('recetas');
 
+Route::get('/admin', function(){
+    return view('admin.dashboard');
+})->name('admin');
 
+Route::get('/admin/sliders', 'SliderController@index');
