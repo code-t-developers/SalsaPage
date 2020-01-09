@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','Agregar alojamiento')
+@section('title','Editar Salsa')
 
 @push('css')
 
@@ -14,70 +14,79 @@
                 @include('layouts.partial.msg')
                 <div class="card">
                     <div class="card-header card-header-primary" data-background-color="purple">
-                        <h4 class="title">Agregar habitacion</h4>
+                        <h4 class="title">Editar salsa</h4>
                     </div>
                     <br> <br>
                     <div class="card-content">
-                        <form method="POST" action="{{ route('habitacion.update',$room->id) }}" enctype="multipart/form-data">
+                        <form method="POST" action="{{ URL('/admin/salsas/update/'.$salsa->id) }}" enctype="multipart/form-data">
                             @csrf
-                            @method('PUT')
                             <div style="padding:30px" class="row">
                                 <div class="col-md-12">
                                     <div class="form-group label-floating">
-                                        <label class="control-label">Numero de habitacion:</label>
-                                    <input type="text" class="form-control" name="numh" value="{{$room->num_room}}">
+                                        <label class="control-label">Nombre:</label>
+                                        <input type="text" class="form-control" name="nombre" required value="{{$salsa->nombre}}">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-group label-floating">
-                                        <label class="control-label">Estatus:</label>
-                                        <div class="select-wrap">
-                                                <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                                <select class="form-control" name="status" id="statusForm">
-                                                    <option value="R">Reservado</option>
-                                                    <option value="D">Disponible</option>
 
-                                                </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group label-floating">
-                                        <label class="control-label">Tipo:</label>
-                                        <div class="select-wrap">
-                                                <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                                <select class="form-control" name="type" id="">
-                                                @foreach ($typeR as $tr)
-                                                <option value="{{$tr->id}}">{{$tr->type_room}}</option>
-                                                @endforeach
-
-
-                                                </select>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-md-12">
                                     <div class="form-group label-floating">
-                                        <label class="control-label">Descripccion:</label>
-                                    <textarea maxlength="180" name="description" class="form-control" id="descriptionFormLodg" rows="2">{{$room->description}}</textarea>
+                                        <label class="control-label">Contenido Neto:</label>
+                                        <input type="text" class="form-control" name="contenidoNeto" required value="{{$salsa->contenidoNeto}}">
                                     </div>
                                 </div>
-                                <div class="col-md-">
-                                    <div class="form-group label-floating text-md-left">
-                                    <label for=""><i><span class="fa fa-usd fa-2x"></span></i></label>
 
-                                        </div>
-                            </div>
-                                <div class="col-md-4">
+                                <div class="col-md-12">
                                     <div class="form-group label-floating">
-                                        <label class="control-label">Precio</label>
-                                    <input type="text" class="form-control" name="precio" value="{{$room->prize_room}}">
+                                        <label class="control-label">Precio Unitario:</label>
+                                        <input type="text" class="form-control" name="precioUnitario" required value="{{$salsa->precioUnitario}}">
                                     </div>
                                 </div>
 
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Precio Mayoreo:</label>
+                                        <input type="text" class="form-control" name="precioMayoreo" value="{{$salsa->precioMayoreo}}">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Ingredientes:</label>
+                                        <input type="text" class="form-control" name="ingredientes" value="{{$salsa->ingredientes}}">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Preparación:</label>
+                                        <input type="text" class="form-control" name="preparacion" value="{{$salsa->preparacion}}">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Receta Del Mes:</label>
+                                        <input type="text" class="form-control" name="recetaMes" value="{{$salsa->recetaMes}}">
+                                    </div>
+                                </div>
+
+                                <div style="padding:30px" class="row">
+                                    <div class="col-md-12">
+                                        <label class="control-label">Imagen Pequeña</label>
+                                            <input type="file" name="imagenPequenia" accept="image/png, .jpeg, .jpg">
+                                    </div>
+                                </div>
+
+                                <div style="padding:30px" class="row">
+                                    <div class="col-md-12">
+                                        <label class="control-label">Imagen Grande</label>
+                                            <input type="file" name="imagenGrande" accept="image/png, .jpeg, .jpg">
+                                    </div>
+                                </div>                        
+
                             </div>
-                            <a href="{{ route('habitacion.index') }}" class="btn btn-danger">Back</a>
-                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a href="{{ route('salsas.index') }}" class="btn btn-danger">Atrás</a>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
                         </form>
                     </div>
                 </div>

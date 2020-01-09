@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use Image;
 
 class SliderController extends Controller
 {
@@ -13,7 +15,9 @@ class SliderController extends Controller
      */
     public function index()
     {
-        return view('admin.sliders.index');
+        $slider = DB::table('sliders')->where('status','A')
+        ->get();
+        return view('admin.sliders.index')->with('slider',$slider);
     }
 
     /**
@@ -23,7 +27,7 @@ class SliderController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.sliders.create');
     }
 
     /**
@@ -34,41 +38,17 @@ class SliderController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+        $data = [];
+        $data['users_id'] = 1;
+        $file = $request->file('imagen');
+        $name = time();
+        $extension = $file->getClientOriginalExtension();
+        $filename = 'img'.$name.'.'.$extension;
+        $file = Image::make($request->file('imagen'))->save('img/'.$filename, 90);
+        $data['slider'] = $filename;
+        $data['status'] = 'A';
+        DB::table('sliders')->insert($data);
+        return redirect('/admin/slider/create');
     }
 
     /**
@@ -79,6 +59,7 @@ class SliderController extends Controller
      */
     public function destroy($id)
     {
-        //
+        DB::table('sliders')->where('id', '=', $id)->update(['status' => 'I']);
+        return redirect('/admin/sliders');
     }
 }

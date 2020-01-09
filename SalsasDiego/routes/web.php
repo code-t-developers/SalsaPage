@@ -32,3 +32,17 @@ Route::get('/admin', function(){
 })->name('admin');
 
 Route::get('/admin/sliders', 'SliderController@index');
+
+Route::get('/admin/slider/create', 'SliderController@create');
+
+Route::post('/admin/slider/store', 'SliderController@store');
+
+Route::resource('slider', 'SliderController');
+
+Route::resource('salsas', 'SalsasController');
+
+Route::get('/admin/salsas', 'SalsasController@index');
+
+Route::get('/admin/salsas/create', 'SalsasController@create');
+
+Route::post('/admin/salsas/update/{id}', 'SalsasController@update');
