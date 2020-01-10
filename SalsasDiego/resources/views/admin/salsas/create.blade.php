@@ -65,8 +65,11 @@
 
                                 <div class="col-md-12">
                                     <div class="form-group label-floating">
-                                        <label class="control-label">Receta Del Mes:</label>
-                                        <input type="text" class="form-control" name="recetaMes">
+                                    <label class="control-label">¿Es receta del mes?:</label>
+                                    <select name="recetaMes">
+                                        <option value="A">Sí (Activo)</option>
+                                        <option value="I">No (Inactivo)</option>
+                                    </select> 
                                     </div>
                                 </div>
 

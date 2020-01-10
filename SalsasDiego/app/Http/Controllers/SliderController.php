@@ -43,12 +43,13 @@ class SliderController extends Controller
         $file = $request->file('imagen');
         $name = time();
         $extension = $file->getClientOriginalExtension();
-        $filename = 'img'.$name.'.'.$extension;
-        $file = Image::make($request->file('imagen'))->save('img/'.$filename, 90);
+        $filename = 'slider'.$name.'.'.$extension;
+        $file = Image::make($request->file('imagen'))->save('frontend/images/sliders/'.$filename, 90);
         $data['slider'] = $filename;
         $data['status'] = 'A';
+        $data['descripcion'] = $request->descripcion;
         DB::table('sliders')->insert($data);
-        return redirect('/admin/slider/create');
+        return redirect('/admin/sliders');
     }
 
     /**

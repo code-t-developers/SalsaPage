@@ -22,14 +22,14 @@
                                 <thead class="text-primary">
                                 <th>ID</th>
                                 <th>Imagen</th>
-                                
+                                <th>Descripción</th>
                                 </thead>
                                 <tbody>
                                 @foreach($slider as $sliders)
                                         <tr>
                                             <td>{{$sliders->id}}</td>
                                             <td>{{$sliders->slider}}</td>
-                                            
+                                            <td>{{$sliders->descripcion}}</td>
                                             <td>
                                                
 

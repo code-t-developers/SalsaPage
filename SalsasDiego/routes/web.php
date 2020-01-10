@@ -11,8 +11,13 @@
 |
 */
 
+use Illuminate\Support\Facades\DB;
+
 Route::get('/', function () {
-    return view('layouts.home');
+    $salsas = DB::table('salsas')->where('status','A')->get();
+    $recetaMes = DB::table('salsas')->where('status','A')->where('recetaMes','A')->first();
+    $sliders = DB::table('sliders')->where('status','A')->get();
+    return view('layouts.home')->with('salsas',$salsas)->with('recetaMes',$recetaMes)->with('sliders', $sliders);
 })->name('home');
 
 Route::get('/nosotros', function () {

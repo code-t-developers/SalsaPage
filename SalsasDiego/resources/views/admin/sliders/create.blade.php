@@ -20,6 +20,12 @@
                     <div class="card-content">
                         <form method="POST" action="{{url('/admin/slider/store')}}" enctype="multipart/form-data" >
                             @csrf
+                            <div class="col-md-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Descripción:</label>
+                                        <input type="text" class="form-control" name="descripcion">
+                                    </div>
+                            </div>
                             <div style="padding:30px" class="row">
                                 <div class="col-md-12">
                                     <label class="control-label">Slider imagen</label>

@@ -46,8 +46,8 @@ class SalsasController extends Controller
             $file = $request->file('imagenPequenia');
             $name = time();
             $extension = $file->getClientOriginalExtension();
-            $filename = 'imagen'.$name.'.'.$extension;
-            $file = Image::make($request->file('imagenPequenia'))->save('img/'.$filename, 90);
+            $filename = 'producto'.$name.'.'.$extension;
+            $file = Image::make($request->file('imagenPequenia'))->save('frontend/images/productos/'.$filename, 90);
             $data['imagenPequenia'] = $filename;
         }
 
@@ -55,8 +55,8 @@ class SalsasController extends Controller
             $newFile = $request->file('imagenGrande');
             $newName = time();
             $newExtension = $newFile->getClientOriginalExtension();
-            $newFilename = 'img'.$newName.'.'.$newExtension;
-            $newFile = Image::make($request->file('imagenGrande'))->save('img/'.$newFilename, 90);
+            $newFilename = 'receta'.$newName.'.'.$newExtension;
+            $newFile = Image::make($request->file('imagenGrande'))->save('frontend/images/recetasMes/'.$newFilename, 90);
             $data['imagenGrande'] = $newFilename;
         }
 
