@@ -51,3 +51,5 @@ Route::get('/admin/salsas', 'SalsasController@index');
 Route::get('/admin/salsas/create', 'SalsasController@create');
 
 Route::post('/admin/salsas/update/{id}', 'SalsasController@update');
+
+Route::post('/mensaje', 'ContactoController@contacto');

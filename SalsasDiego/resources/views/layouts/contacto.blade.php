@@ -38,18 +38,19 @@
       </div>
       <div class="row block-9">
         <div class="col-md-6 order-md-last d-flex">
-          <form action="#" class="bg-white p-5 contact-form">
+          <form action="{{url('/mensaje')}}" method = "POST" class="bg-white p-5 contact-form">
+          @csrf
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Nombre">
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Correo electronico (Email)">
+              <input type="text" class="form-control" placeholder="Correo electronico (Email)" name="correo">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Asunto">
+              <input type="text" class="form-control" placeholder="Asunto" name="asunto">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+              <textarea id="" cols="30" rows="7" class="form-control" placeholder="Mensaje" name="mensaje"></textarea>
             </div>
             <div class="form-group">
               <input type="submit" value="Enviar" class="btn btn-primary py-3 px-5">
