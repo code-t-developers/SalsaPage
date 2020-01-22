@@ -36,6 +36,14 @@ Route::get('/admin', function(){
     return view('admin.dashboard');
 })->name('admin');
 
+Route::get('/singleSalsa', function () {
+    return view ('layouts.single_salsa');
+})->name('singleSalsa');
+
+Route::get('/singleReceta', function () {
+    return view('layouts.single_receta');
+})->name('singleReceta');
+
 Route::get('/admin/sliders', 'SliderController@index');
 
 Route::get('/admin/slider/create', 'SliderController@create');

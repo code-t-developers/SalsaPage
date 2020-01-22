@@ -103,7 +103,7 @@
                         </div>
                         <div class="bottom-area d-flex px-3">
                             <div class="m-auto d-flex">
-                                <a href="#"
+                                <a href="{{route('singleSalsa')}}"
                                     class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                     <span><i class="ion-ios-menu"></i></span>
                                 </a>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-     @endforeach       
+     @endforeach
 </section>
 
 <section class="ftco-section img" style="background-image: url('frontend/images/recetasMes/{{$recetaMes->imagenGrande}}');">
