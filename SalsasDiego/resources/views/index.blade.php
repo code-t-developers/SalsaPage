@@ -133,7 +133,7 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | dessign by <a href="http://www.code-t.com.mx" target="_blank">Code-T</a>
+                        </script> All rights reserved | made by <a href="http://www.code-t.com.mx" target="_blank">Code-T</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>

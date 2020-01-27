@@ -32,7 +32,7 @@ data-image="{{url('backend/img/sidebar-1.jpg')}}">
 
         
         <li class="nav-item ">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{url('/admin/salsas')}}">
                 <i class="material-icons">hotel</i>
                 <p>Salsas</p>
             </a>

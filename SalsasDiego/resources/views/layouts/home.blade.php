@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-     @endforeach
+     @endforeach       
 </section>
 
 <section class="ftco-section img" style="background-image: url('frontend/images/recetasMes/{{$recetaMes->imagenGrande}}');">
